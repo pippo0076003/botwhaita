@@ -37,7 +37,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, isPrems,
   const speed = neww - old;
   const prova ={'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': true, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
 
-  const text = `  *☁️𝑴𝒐𝒐𝒏𝑪𝒍𝒐𝒖𝒅𝒔⇝𝐁Ꮻ𝐓|mənū☁️*
+  const text = `
 ┌──•✧𝑶𝒈𝒈𝒊✧•─────┐
 ┊─•✧*𝘿𝘼𝙏𝘼:* ${date}
 ┊─•✧*𝙊𝙍𝘼:* ${bottime}
