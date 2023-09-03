@@ -38,6 +38,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, isPrems,
   const prova ={'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': true, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
 
   const text = `
+  Assassin's Creed bot
 ┌──•✧𝑶𝒈𝒈𝒊✧•─────┐
 ┊─•✧*𝘿𝘼𝙏𝘼:* ${date}
 ┊─•✧*𝙊𝙍𝘼:* ${bottime}
